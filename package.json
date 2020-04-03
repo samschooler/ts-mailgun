@@ -17,10 +17,10 @@
 	},
 	"scripts": {
 		"test": "npm run build && jasmine --config=test/jasmine",
-		"build": "tsc --p tsconfig.json",
-		"build:spec": "tsc --p tsconfig.json && tsc --p tsconfig.spec.json",
-		"postinstall": "tsc --p tsconfig.dist.json",
-		"doc": "typedoc --out docs src --excludeNotExported"
+		"build": "npx tsc --p tsconfig.json",
+		"build:spec": "npx tsc --p tsconfig.json && tsc --p tsconfig.spec.json",
+		"postinstall": "npx tsc --p tsconfig.dist.json",
+		"doc": "npx typedoc --out docs src --excludeNotExported"
 	},
 	"repository": {
 		"type": "git",
