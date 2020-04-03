@@ -19,7 +19,6 @@
 		"test": "npm run build && jasmine --config=test/jasmine",
 		"build": "npx tsc --p tsconfig.json",
 		"build:spec": "npx tsc --p tsconfig.json && tsc --p tsconfig.spec.json",
-		"postinstall": "npx tsc --p tsconfig.dist.json",
 		"doc": "npx typedoc --out docs src --excludeNotExported"
 	},
 	"repository": {
